@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-require('dot-env').config();
+require('dotenv').config();
 let projectId = process.env.projectId
 let account = process.env.account
 module.exports = {

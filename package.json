@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.4.2",
-    "dot-env": "^0.0.1"
+    "dotenv": "^16.0.0"
   }
 }
