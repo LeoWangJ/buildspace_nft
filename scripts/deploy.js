@@ -6,6 +6,12 @@ async function main() {
 
   await nft.deployed();
 
+
+  let txn = await nft.makeAnNFT();
+  await txn.wait();
+  txn = await nft.makeAnNFT();
+  await txn.wait();
+
   console.log("NFT deployed to:", nft.address);
 }
 main()
